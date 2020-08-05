@@ -1,0 +1,219 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small,
+strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    outline: none;
+}
+body {
+    background-color: #02181E;
+    font-family: Roboto Slab, serif;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+}
+.fs-16{
+    font-size: 16px;
+  }
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-35{
+    font-size: 35px;
+}
+.f-w-bold {
+    font-weight: bold;
+}
+.b-pink {
+    border: 3px solid #DB7997;
+}
+.b-white {
+    border: 3px solid white;
+}
+.burger {
+    display: none;
+}
+button {
+    background-color: #02181E;
+    font-weight: 300;
+    color: #DB7997;
+    border: none;
+    padding: 20px 25px;
+    letter-spacing: 0.15em;
+    font-size: 20px;
+}
+.to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 55px;
+}
+.t-a-l {
+    text-align: left;
+}
+.d-f-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    width: auto;
+    height: auto;
+}
+nav a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.15em;
+}
+.p-m-nav {
+    padding: 20px 20px;
+    margin-right: 70px;
+    line-height: 40px;
+}
+.cosmic-photo {
+    width: 400px;
+    margin-right: 60px;
+}
+.btn-size {
+    width: fit-content;
+    margin: 0 auto;
+}
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    margin: 30px 0;
+}
+.p-desk {
+    line-height: 200%;
+    letter-spacing: 0.05em;
+    margin-bottom: 25px;
+}
+.heading {
+   text-align: center;
+}
+.heading-m {
+    margin: 40px 0 70px 0;
+}
+.heading__width {
+    width: 340px;
+}
+.heading__style {
+    letter-spacing: 0.15em;
+    font-weight: bold;
+    color: #041F26;
+    margin-top: -85px;
+    margin-bottom: 65px;
+}
+.street-photo {
+    width: 411px;
+    height: 616px;
+}
+.m-l-r {
+    margin: 0 45px 30px 45px;
+}
+.p-m-r {
+    margin-right: 60px;
+}
+.back-triangle {
+    background-image: url("background.png");
+}
+.d-f-s {
+    display: flex;
+    justify-content: space-around;
+}
+.course {
+    width: 380px;
+    height: 380px;
+    border: 20px white solid;
+    background-image: url("background.png");
+    margin: 25px 20px 60px 20px;
+}
+div>a {
+    text-decoration: none;
+}
+a>div>p {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+}
+.btn-white {
+    font-family: Roboto Slab, serif;
+    color: white;
+}
+.b-white__m {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.m-photogallery {
+    margin: 10px;
+}
+.white-rectangle {
+    background-color: white;
+    background-image: url("bg-brush.png");
+    margin: 20px 40px;
+}
+.btn-triangle {
+    background-color: white;
+}
+h3 {
+    color: #041F26;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+}
+.social {
+    margin: 30px 60px;
+    background-size: contain;
+    width: 80px;
+}
+footer p {
+    margin: 20px 0 40px 0;
+}
+
+@media (max-width: 950px) and (min-width: 400px){
+
+    div>img:first-child {
+        width: 230px;
+    }
+    .burger {
+        display: inherit;
+        margin-left: 80px;
+    }
+    .burger-menu {
+        display: grid;
+        font-size: 18px;
+        display: none;
+    }
+    .p-absolut {
+        position: absolute;
+    }
+    .p-relative {
+        position: relative;
+    }
+    .m-photo-tablet {
+        margin-right: -5px;
+        margin-top: -510px;
+    }
+    .m-l-r {
+        margin: 200px 45px 30px 45px;
+    }
+}
