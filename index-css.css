@@ -243,7 +243,7 @@ footer p {
         height: 250px;
         border: 10px white solid;
         background-image: url(background.png);
-        margin: 0px 10px 45px 10px;
+        margin: 0 10px 45px 10px;
     }
     .d-n-t {
         display: none;
@@ -257,5 +257,79 @@ footer p {
 }
 
 
-@media (max-width: 649px) and (min-width: 400px) {
+@media (max-width: 649px) and (min-width: 300px) {
+    div>img:first-child {
+        width: 180px;
+    }
+    .burger {
+        display: inherit;
+        margin-left: 50px;
+        width: 50px;
+    }
+    .burger-menu {
+        display: grid;
+        font-size: 18px;
+        display: none;
+    }
+    .d-n-p {
+        display: none;
+    }
+    .fs-phone-16 {
+        font-size: 16px;
+    }
+    .fs-phone-18 {
+        font-size: 18px;
+    }
+    button {
+        padding: 15px 10px;
+        font-size: 16px;
+    }
+    .d-b {
+        display: block
+    }
+    .street-photo {
+        width: auto;
+        height: auto;
+    }
+    .heading__style {
+        margin-top: -50px;
+        font-size: 16px;
+    }
+    .p-m-r {
+        margin: 10px 20px;
+    }
+    .heading__style_courses {
+        font-size: 11px;
+    }
+    .course {
+        width: 260px;
+        height: 260px;
+        border: 10px white solid;
+        background-image: url(background.png);
+        margin:0 0 20px 0;
+    }
+    .d-b {
+        display: block
+    }
+    .b-white__m {
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+    .d-n-p {
+        display: none
+    }
+    .white-rectangle {
+        padding-top: 30px;
+    }
+    .size-triangle {
+        width: 55px;
+    }
+    .social {
+        margin: 0 30px;
+        width: 60px;
+    }
+    footer p {
+        font-size: 16px;
+        margin: 25px 0 30px 0;
+    }
 }
