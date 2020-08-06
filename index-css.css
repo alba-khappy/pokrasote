@@ -64,6 +64,9 @@ button {
     right: 20px;
     width: 55px;
 }
+.photo-phone {
+    display: none;
+}
 .t-a-l {
     text-align: left;
 }
@@ -209,6 +212,11 @@ footer p {
         display: grid;
         font-size: 18px;
         display: none;
+        z-index: 100;
+        position: absolute;
+        top: 140px;
+        margin: 0 auto;
+        background: #041F26;
     }
     .p-absolut {
         position: absolute;
@@ -216,6 +224,9 @@ footer p {
     .position-photo {
         right: -200px;
         top: -10px;
+    }
+    .photo-phone {
+        display: none;
     }
     .m-l-r {
         margin: 185px 265px 20px 0;
@@ -258,6 +269,9 @@ footer p {
 
 
 @media (max-width: 649px) and (min-width: 300px) {
+    .to-top {
+        width: 40px;
+    }
     div>img:first-child {
         width: 180px;
     }
@@ -270,9 +284,26 @@ footer p {
         display: grid;
         font-size: 18px;
         display: none;
+        z-index: 100;
+        position: absolute;
+        top: 115px;
+        margin: 0 auto;
+        background: #041F26;
+        font-size: 16px;
+    }
+    nav a {
+        margin: 0;
     }
     .d-n-p {
         display: none;
+    }
+    .photo-phone {
+        float: left;
+        width: 159px;
+        display: flex;
+    }
+    .m-l-r {
+        margin: 0 5px 30px 0;
     }
     .fs-phone-16 {
         font-size: 16px;
@@ -326,7 +357,7 @@ footer p {
     }
     .social {
         margin: 0 30px;
-        width: 60px;
+        width: 50px;
     }
     footer p {
         font-size: 16px;
