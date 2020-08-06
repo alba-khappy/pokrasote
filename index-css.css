@@ -171,6 +171,13 @@ a>div>p {
     background-color: white;
     background-image: url("bg-brush.png");
     margin: 20px 40px;
+    padding: 40px 20px 0 20px;
+}
+.review-size {
+    width: 230px;
+}
+.m-h3 {
+    margin-top: 30px;
 }
 .btn-triangle {
     background-color: white;
@@ -189,7 +196,7 @@ footer p {
     margin: 20px 0 40px 0;
 }
 
-@media (max-width: 950px) and (min-width: 400px){
+@media (max-width: 950px) and (min-width: 650px){
 
     div>img:first-child {
         width: 230px;
@@ -206,14 +213,49 @@ footer p {
     .p-absolut {
         position: absolute;
     }
-    .p-relative {
-        position: relative;
-    }
-    .m-photo-tablet {
-        margin-right: -5px;
-        margin-top: -510px;
+    .position-photo {
+        right: -200px;
+        top: -10px;
     }
     .m-l-r {
-        margin: 200px 45px 30px 45px;
+        margin: 185px 265px 20px 0;
     }
+    .fs-tablet-20 {
+        font-size: 20px;
+    }
+    .heading__style {
+        letter-spacing: 0.15em;
+        font-weight: bold;
+        color: #041F26;
+        margin-top: -65px;
+        margin-bottom: 65px;
+        font-size: 18px;
+    }
+    .street-photo-tablet {
+        height: 365px;
+        margin: 0 10px 0 -20px;
+    }
+    .heading__style_courses {
+        font-size: 14px;
+    }
+    .course {
+        width: 250px;
+        height: 250px;
+        border: 10px white solid;
+        background-image: url(background.png);
+        margin: 0px 10px 45px 10px;
+    }
+    .d-n-t {
+        display: none;
+    }
+    .social {
+        width: 65px;
+    }
+    footer p {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 649px) and (min-width: 400px) {
 }
