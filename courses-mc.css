@@ -1,0 +1,41 @@
+.bg-img {
+    background-image: url("bg-courses.png");
+    background-repeat: repeat-y;
+    background-size: 98%;
+}
+.course-heading {
+    width: content-box;
+    border: 10px white solid;
+    background-image: url("background.png");
+    margin: 30px 150px;
+    padding: 20px 30px;
+}
+.wrapper{
+    width: 90%;
+    margin:0 40px;
+}
+.text-to-wrapper {
+    text-align: left;
+    white-space: pre-line;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+}
+.t-a-c {
+    text-align: center;
+}
+.m-p {
+    margin-bottom: 80px;
+}
+
+
+
+@media (max-width: 649px) and (min-width: 300px) {
+    .m-p {
+        margin: 0;
+    }
+    .course-heading {
+        margin: 50px 150px 0 150px;
+    }
+}
