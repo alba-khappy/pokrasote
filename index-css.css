@@ -179,10 +179,16 @@ a>div>p {
     background-color: white;
     background-image: url("bg-brush.png");
     margin: 20px 40px;
-    padding: 40px 20px 0 20px;
+    padding-top: 40px;
+}
+.d-block {
+    display: block;
 }
 .review-size {
     width: 230px;
+}
+.d-n-img {
+    display: none;
 }
 .m-h3 {
     margin-top: 30px;

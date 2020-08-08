@@ -1,0 +1,9 @@
+.photo-container {
+    display: table-row;
+    padding: 20px;
+}
+
+div>img {
+    width: 220px;
+    margin: 10px 25px;
+}
