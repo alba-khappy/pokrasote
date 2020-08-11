@@ -7,3 +7,12 @@ div>img {
     width: 220px;
     margin: 10px 25px;
 }
+
+@media (max-width: 550px) and (min-width: 200px) {
+  #footer-galery {
+      display: block;
+  }
+    #wrapper-galery {
+        margin: 0 auto;
+    }
+}

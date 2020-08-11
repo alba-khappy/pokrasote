@@ -1,8 +1,10 @@
-.bg-img {
+body {
     background-image: url("bg-courses.png");
+    background-position-y: 15%;
     background-repeat: repeat-y;
     background-size: 98%;
 }
+
 .course-heading {
     width: content-box;
     border: 10px white solid;
@@ -13,14 +15,35 @@
 .m-p {
     margin-bottom: 80px;
 }
+#wrapper-m {
+    margin: 0 auto;
+}
 
 
 
-@media (max-width: 649px) and (min-width: 300px) {
+@media (max-width: 649px) and (min-width: 200px) {
+    body {
+        background-image: url("bg-courses-mobile.png");
+        background-repeat: repeat-y;
+        background-size: 98%;
+    }
     .m-p {
         margin: 0;
     }
     .course-heading {
-        margin: 50px 150px 0 150px;
+        margin: 0 150px;
+    }
+    .course-heading-2 {
+        margin-top: 50px;
+    }
+    .heading_margin-t {
+        margin-top: 30px;
+    }
+    #go-back {
+        top: 10px;
+        left: 10px;
+    }
+    #button-courses {
+        font-size: 16px;
     }
 }

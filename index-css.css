@@ -175,11 +175,15 @@ a>div>p {
 .m-photogallery {
     margin: 10px;
 }
+#w-photo {
+    width: 221px;
+}
 .white-rectangle {
     background-color: white;
     background-image: url("bg-brush.png");
     margin: 20px 40px;
     padding-top: 40px;
+    background-size: cover;
 }
 .d-block {
     display: block;
@@ -279,7 +283,7 @@ footer p {
 }
 
 
-@media (max-width: 649px) and (min-width: 300px) {
+@media (max-width: 649px) and (min-width: 200px) {
     .to-top {
         width: 40px;
     }
