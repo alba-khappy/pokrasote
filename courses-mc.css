@@ -1,5 +1,5 @@
 body {
-    background-image: url("bg-courses.png");
+    background-image: url("pic/bg-courses.png");
     background-position-y: 15%;
     background-repeat: repeat-y;
     background-size: 98%;
@@ -8,14 +8,14 @@ body {
 .course-heading {
     width: content-box;
     border: 10px white solid;
-    background-image: url("background.png");
+    background-image: url("pic/background.png");
     margin: 30px 150px;
     padding: 20px 30px;
 }
 .m-p {
     margin-bottom: 80px;
 }
-#wrapper-m {
+#wrapper-m-1, #wrapper-m-2, #wrapper-m-3 {
     margin: 0 auto;
 }
 
@@ -23,7 +23,7 @@ body {
 
 @media (max-width: 649px) and (min-width: 200px) {
     body {
-        background-image: url("bg-courses-mobile.png");
+        background-image: url("pic/bg-courses-mobile.png");
         background-repeat: repeat-y;
         background-size: 98%;
     }

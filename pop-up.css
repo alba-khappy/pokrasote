@@ -13,7 +13,7 @@
 }
 .form {
     width: 476px;
-    background-image: url(popup-bg.png);
+    background-image: url(pic/popup-bg.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: rgba(229, 229, 229,1);
@@ -33,7 +33,7 @@
     margin:20px 20px 0 0;
 }
 .close-popup {
-    background-image: url("cancel.png");
+    background-image: url("pic/cancel.png");
     background-color: rgba(229,229,229,1);
     background-size: contain;
     width: 60px;
@@ -92,7 +92,7 @@ form {
 
     .form {
         width: 250px;
-        background-image: url("pop-up-bg-mobile.png");
+        background-image: url("pic/pop-up-bg-mobile.png");
         background-size: cover;
     }
     .close-popup {

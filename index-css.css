@@ -85,16 +85,64 @@ nav a {
     color: white;
     letter-spacing: 0.15em;
 }
-a:hover {
-    background: rgba(255, 255, 255, 0.44);
-    filter: blur(15px);
-    z-index: -10;
+.btn-container {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
-.p-m-nav {
-    padding: 20px 20px;
-    margin-right: 70px;
-    line-height: 40px;
+
+a.effect {
+    display: block;
+    margin: auto;
+    padding: 10px 5px;;
+    text-decoration: none;
+    color: white;
+    font-family:"Roboto Slab", serif;
+    position: relative;
+    -webkit-transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
+    transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
+    z-index: 1;
+    font-size: 20px;
 }
+a.effect:after {
+    content: '';
+    display: block;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    right: 1.25rem;
+    left: 1.25rem;
+    background-color: #ffffff;
+    -webkit-transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
+    transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
+    -webkit-transform-origin: bottom center;
+    transform-origin: bottom center;
+    z-index: -1;
+}
+a.effect:hover {
+    color: #2D2D2D;
+    transition: transition: 2s;
+}
+a.effect:hover:after {
+    right: 0;
+    left: 0;
+    height: 100%;
+}
+.white-effect:hover {
+    background-color: rgba(254, 254, 254, 0.7);
+    color: black;
+    transition: 1s;
+}
+.white-effect:active {
+    background-color: rgba(254, 254, 254, 1);
+    color: black;
+}
+
+
 .cosmic-photo {
     width: 400px;
     margin-right: 60px;
@@ -141,7 +189,7 @@ a:hover {
     margin-right: 60px;
 }
 .back-triangle {
-    background-image: url("background.png");
+    background-image: url("pic/background.png");
 }
 .d-f-s {
     display: flex;
@@ -151,7 +199,7 @@ a:hover {
     width: 380px;
     height: 380px;
     border: 20px white solid;
-    background-image: url("background.png");
+    background-image: url("pic/background.png");
     margin: 25px 20px 60px 20px;
 }
 div>a {
@@ -180,7 +228,7 @@ a>div>p {
 }
 .white-rectangle {
     background-color: white;
-    background-image: url("bg-brush.png");
+    background-image: url("pic/bg-brush.png");
     margin: 20px 40px;
     padding-top: 40px;
     background-size: cover;
@@ -232,6 +280,8 @@ footer p {
         top: 140px;
         margin: 0 auto;
         background: #041F26;
+        height: 425px;
+        text-align: center;
     }
     .p-absolut {
         position: absolute;
@@ -268,7 +318,7 @@ footer p {
         width: 250px;
         height: 250px;
         border: 10px white solid;
-        background-image: url(background.png);
+        background-image: url(pic/background.png);
         margin: 0 10px 45px 10px;
     }
     .d-n-t {
@@ -297,7 +347,6 @@ footer p {
     }
     .burger-menu {
         display: grid;
-        font-size: 18px;
         display: none;
         z-index: 100;
         position: absolute;
@@ -305,6 +354,7 @@ footer p {
         margin: 0 auto;
         background: #041F26;
         font-size: 16px;
+        height: 330px;
     }
     nav a {
         margin: 0;
@@ -351,7 +401,7 @@ footer p {
         width: 260px;
         height: 260px;
         border: 10px white solid;
-        background-image: url(background.png);
+        background-image: url(pic/background.png);
         margin:0 0 20px 0;
     }
     .d-b {

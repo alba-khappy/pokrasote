@@ -50,7 +50,7 @@ body {
     display: none;
 }
 .back-triangle {
-    background-image: url("background.png");
+    background-image: url("pic/background.png");
 }
 button {
     background-color: #02181E;
