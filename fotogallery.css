@@ -9,7 +9,6 @@ div>img {
 }
 .photo-container>img {
     -webkit-transition: 300ms ease-in;
-    -ms-transition: 300ms ease-in;
     -moz-transition: 300ms ease-in;
     transition: 300ms ease-in;
 }
