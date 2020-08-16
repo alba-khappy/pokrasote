@@ -57,6 +57,7 @@ button {
     padding: 20px 25px;
     letter-spacing: 0.15em;
     font-size: 20px;
+    outline: none;
 }
 .to-top {
     position: fixed;
@@ -132,7 +133,7 @@ a.effect:hover:after {
     height: 100%;
 }
 .white-effect{
-    transition: 1s;
+    transition: 300ms;
 }
 .white-effect:hover {
     background-color: rgba(254, 254, 254, 0.7);
@@ -206,9 +207,9 @@ a.effect:hover:after {
     transition: 1s;
 }
 .course:hover {
-    box-shadow:0 0 17px 7px rgba(214,184,187,0.57);
-    -webkit-box-shadow:0 0 17px 7px rgba(214,184,187,0.57);
-    -moz-box-shadow:0 0 17px 7px rgba(214,184,187,0.57);
+    box-shadow:0 0 50px 7px rgba(214,184,187,0.57);
+    -webkit-box-shadow:0 0 50px 7px rgba(214,184,187,0.57);
+    -moz-box-shadow:0 0 50px 7px rgba(214,184,187,0.57);
 }
 .course:active {
     box-shadow:0 0 17px 7px rgba(214,184,187,1);
@@ -242,24 +243,46 @@ a>div>p {
 .white-rectangle {
     background-color: white;
     background-image: url("pic/bg-brush.png");
-    margin: 20px 40px;
+    background-repeat: repeat;
+    margin: 0 auto;
     padding-top: 40px;
-    background-size: cover;
+    width: 90%;
+    transition: 300ms;
+    overflow: hidden;
+}
+.brush {
+    position: absolute;
+
+}
+.white-rectangle-close {
+    max-height: 245px;
+}
+.white-rectangle-open{
+    max-height: 4000px;
 }
 .d-block {
     display: block;
 }
 .review-size {
     width: 230px;
+    margin: 0px 15px 15px 15px;
 }
-.d-n-img {
-    display: none;
+.btn-reviews{
+    width: 90%;
+    height: 114px;
+    background: white;
+    display: block;
+    margin: -30px auto 0;
 }
 .m-h3 {
     margin-top: 30px;
 }
 .btn-triangle {
     background-color: white;
+}
+.rotate-btn {
+    transform: rotate(180deg);
+    transition: 100ms;
 }
 h3 {
     color: #041F26;
@@ -446,9 +469,6 @@ footer p {
     }
     .d-n-p {
         display: none
-    }
-    .white-rectangle {
-        padding-top: 30px;
     }
     .size-triangle {
         width: 55px;
