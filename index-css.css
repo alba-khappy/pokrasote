@@ -296,7 +296,7 @@ h3 {
     transition: 200ms ease-in-out;
 }
 .social:hover {
-    width: 85px;
+    transform: scale(1.09);
 }
 .height-block-social {
     height: 125px;
