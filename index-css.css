@@ -65,7 +65,7 @@ button {
     right: 20px;
     width: 55px;
 }
-.photo-phone {
+.photo-phone, .photo-ipad {
     display: none;
 }
 .t-a-l {
@@ -171,6 +171,9 @@ a.effect:hover:after {
 .heading-m {
     margin: 40px 0 70px 0;
 }
+.heading__style_courses {
+    line-height: 8px;
+}
 .heading__width {
     width: 340px;
 }
@@ -242,17 +245,11 @@ a>div>p {
 }
 .white-rectangle {
     background-color: white;
-    background-image: url("pic/bg-brush.png");
-    background-repeat: repeat;
     margin: 0 auto;
     padding-top: 40px;
     width: 90%;
     transition: 300ms;
     overflow: hidden;
-}
-.brush {
-    position: absolute;
-
 }
 .white-rectangle-close {
     max-height: 245px;
@@ -265,7 +262,7 @@ a>div>p {
 }
 .review-size {
     width: 230px;
-    margin: 0px 15px 15px 15px;
+    margin: 0 15px 15px 15px;
 }
 .btn-reviews{
     width: 90%;
@@ -332,12 +329,16 @@ footer p {
     .p-absolut {
         position: absolute;
     }
-    .position-photo {
-        right: -200px;
-        top: -10px;
-    }
     .photo-phone {
         display: none;
+    }
+    .photo-ipad {
+        position: absolute;
+        display: inherit;
+        right: 0;
+    }
+    .d-n-p {
+        display: none
     }
     .m-l-r {
         margin: 185px 265px 20px 0;
@@ -356,9 +357,6 @@ footer p {
     .street-photo-tablet {
         height: 365px;
         margin: 0 10px 0 -20px;
-    }
-    .heading__style_courses {
-        font-size: 14px;
     }
     .course {
         width: 250px;
@@ -423,6 +421,9 @@ footer p {
         width: 159px;
         display: flex;
     }
+    .photo-ipad {
+        display: none;
+    }
     .m-l-r {
         margin: 0 5px 30px 0;
     }
@@ -449,9 +450,6 @@ footer p {
     }
     .p-m-r {
         margin: 10px 20px;
-    }
-    .heading__style_courses {
-        font-size: 11px;
     }
     .course {
         width: 260px;

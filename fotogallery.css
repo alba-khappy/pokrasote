@@ -19,6 +19,9 @@ div>img {
     -moz-transform: scale(1.5);
     transform: scale(1.5);
 }
+.heading__photo {
+    width: 270px;
+}
 
 @media (max-width: 550px) and (min-width: 200px) {
   #footer-galery {
@@ -26,5 +29,8 @@ div>img {
   }
     #wrapper-galery {
         margin: 0 auto;
+    }
+    .heading__photo {
+        width: 230px;
     }
 }

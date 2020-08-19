@@ -18,6 +18,9 @@ body {
 #wrapper-m-1, #wrapper-m-2, #wrapper-m-3 {
     margin: 0 auto;
 }
+.heading_courses {
+    width: 340px;
+}
 
 
 
@@ -34,17 +37,17 @@ body {
     .course-heading {
         margin: 0 150px;
     }
+    .heading_courses {
+        width: 200px;
+    }
     .course-heading-2 {
         margin-top: 50px;
-    }
-    .heading_margin-t {
-        margin-top: 30px;
     }
     #go-back {
         top: 10px;
         left: 10px;
     }
-    #button-courses {
+    .fs-16 {
         font-size: 16px;
     }
 }

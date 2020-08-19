@@ -65,7 +65,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 55px;
+    width: 70px;
 }
 .white-effect:hover {
     background-color: rgba(254, 254, 254, 0.7);
@@ -79,7 +79,7 @@ button {
 .go-back {
     position: absolute;
     transform: rotate(-90deg);
-    width: 60px;
+    width: 70px;
     top: 40px;
     left: 80px;
 }
@@ -105,8 +105,11 @@ button {
     letter-spacing: 0.15em;
     font-weight: bold;
     color: #041F26;
-    margin-top: -85px;
     margin-bottom: 65px;
+    margin-top: -85px;
+}
+.heading__style_m {
+    margin-top: -100px;
 }
 .btn-size {
     width: fit-content;
@@ -158,12 +161,14 @@ button {
     .fs-mob-18 {
         font-size: 18px;
     }
-
+    .fs-mob-24 {
+        font-size: 24px;
+    }
     .fs-mob-16 {
         font-size: 16px;
     }
     .to-top, .go-back {
-        width: 40px;
+        width: 60px;
     }
     .go-back-price {
         top: 10px;
@@ -172,5 +177,18 @@ button {
     .button_fs-16 {
         font-size: 16px;
     }
+    .heading__style {
+        margin-top: -100px;
+    }
+    .heading__style_mt-60 {
+        margin-top: -60px;
+    }
+    .heading__style_price {
+        margin-top: -55px;
+    }
+    .heading__style_photo {
+        margin-top: -75px;
+    }
+
 }
 

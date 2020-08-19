@@ -43,6 +43,9 @@
 .logo-footer {
     display: none;
 }
+.heading_price {
+    width: 340px;
+}
 
 
 
@@ -61,6 +64,9 @@
     }
     .logo-footer {
         display: none;
+    }
+    .heading_price {
+        width: 340px;
     }
 }
 @media (max-width: 730px) and (min-width: 200px){
@@ -81,5 +87,11 @@
     .go-back-price {
         top: 10px;
         left: 10px;
+    }
+    .heading_price {
+        width: 200px;
+    }
+    .heading__style_price {
+        margin-top: -55px;
     }
 }
