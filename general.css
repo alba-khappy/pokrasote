@@ -129,6 +129,9 @@ button {
     width: 90%;
     margin:0 40px;
 }
+.wrapper-0-auto {
+    margin: 0 auto;
+}
 .text-to-wrapper {
     text-align: left;
     white-space: pre-line;
@@ -192,3 +195,6 @@ button {
 
 }
 
+.d-n {
+    display: none;
+}
