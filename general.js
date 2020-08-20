@@ -23,7 +23,7 @@ document.getElementById('confirm-call-me').addEventListener('click', function ()
         name: document.getElementsByName('firstname')[0].value,
         message: document.getElementsByName('message')[0].value
     }));
-    if (true || xhr.status == 200) {
+    if (xhr.status == 200) {
         var part1 = document.getElementsByClassName('pop-up-part1')[0];
         part1.classList.add('pop-up-none');
 
