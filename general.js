@@ -29,11 +29,9 @@ document.getElementById('confirm-call-me').addEventListener('click', function ()
 
         var part2 = document.getElementsByClassName('pop-up-part2')[0];
         part2.classList.remove('pop-up-none');
+
+        var form = document.getElementsByClassName('form')[0];
+        form.classList.toggle('bg-none');
     }
 });
 
-//bg
-document.getElementsByClassName('button-pop-up')[0].addEventListener('click', function () {
-    var form = document.getElementsByClassName('form')[0];
-    form.classList.toggle('bg-none');
-});
