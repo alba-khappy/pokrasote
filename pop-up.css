@@ -65,6 +65,7 @@ form {
     letter-spacing: 0.03em;
     color: #000000;
     opacity: 0.7;
+    text-decoration: none;
 }
 .button-pop-up {
     display: flex;
@@ -116,6 +117,7 @@ form {
     .input-form {
         width: 90%;
         height: 40px;
+        text-decoration: none;
     }
     .send-style {
         font-size: 20px;

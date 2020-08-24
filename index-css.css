@@ -241,11 +241,9 @@ a>div>p {
     margin-top: 40px;
     margin-bottom: 80px;
 }
-.m-photogallery {
+.photo-gallery {
     margin: 10px;
-}
-#w-photo {
-    width: 221px;
+    width: 230px;
 }
 .white-rectangle {
     background-color: white;
@@ -387,6 +385,9 @@ footer p {
         width: 40px;
     }
     div>img:first-child {
+        width: 180px;
+    }
+    .photo-gallery {
         width: 180px;
     }
     .burger {
